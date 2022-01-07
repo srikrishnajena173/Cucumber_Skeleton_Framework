@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: features&#x2F;seleniumframework.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Access seleniumframework.com website</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Print title, url</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I open seleniumframework website (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I validate title and URL (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9699" started-at="2018-04-08T14:52:58Z" finished-at="2018-04-08T14:53:08Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:stepDefination.RunCukesTest@4f7d0008]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="9699" started-at="2018-04-08T14:52:58Z" finished-at="2018-04-08T14:53:08Z">
+      <class name="stepDefination.RunCukesTest">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:stepDefination.RunCukesTest@4f7d0008]" name="run_cukes" duration-ms="9667" started-at="2018-04-08T20:22:58Z" description="Runs Cucumber Features" finished-at="2018-04-08T20:23:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: features&#x2F;seleniumframework.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Access seleniumframework.com website</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Print title, url</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I open seleniumframework website (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I validate title and URL (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- stepDefination.RunCukesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
